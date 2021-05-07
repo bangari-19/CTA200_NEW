@@ -1,0 +1,290 @@
+    1  ssh bangari@gw.cita.utoronto.ca /cita/local/bin/passwd
+    2  pwd
+    3  ls
+    4  cd
+    5  ssh bangari@gw.cita.utoronto.ca
+    6  pwd
+    7  ls
+    8  mkdir CTA200H
+    9  git clone https://github.com/CITA/CTA200H.git
+   10  ls -la
+   11  cd ..
+   12  cd..
+   13  git clone https://github.com/CITA/CTA200H.git
+   14  ls -la
+   15  cd ..
+   16  pwd
+   17  ls -la
+   18  cd ..
+   19  pwd
+   20  ls -l downloads
+   21  ls -l Downloads
+   22  cd mnt/scratch-luster
+   23  cd mnt/scratch-lustre
+   24  cd /mnt/scratch-lustre
+   25  ls -l
+   26  pwd
+   27  find -name '*aussi*'
+   28  cd ..
+   29  pwd
+   30  ls
+   31  cd
+   32  pwd
+   33  cd ..
+   34  ls Documents
+   35  mkdir testcta
+   36  ls -la
+   37  man ls
+   38  cd
+   39  pwd
+   40  mkdir CTA200H
+   41  mkdir CTA_200H
+   42  cd CTA_200H
+   43  git clone https://github.com/CITA/CTA200H.git
+   44  ls
+   45  ls -la
+   46  pwd
+   47  ls -l
+   48  ls -l Downloads
+   49  cd CTA200H
+   50  dir
+   51  cd lec
+   52  cd lecture2
+   53  dir
+   54  cd /mnt/scratch-lustre
+   55  ls -l
+   56  cd bangari/
+   57  whoami
+   58  cd ~cta200/
+   59  pwd
+   60  ls -l
+   61  pushd /mnt/scratch-lustre/bangari
+   62  ls -l
+   63  dir
+   64  pushd /mnt/scratch-lustre/bangari
+   65  dir
+   66  pwd
+   67  find -name '*auss*'
+   68  cd ~cta200/
+   69  pwd
+   70  dir
+   71  find -name '*auss*'
+   72  pwd
+   73  cd /mnt/scratch-lustre/bangari
+   74  pwd
+   75  dir
+   76  ls
+   77  ls -l
+   78  pwd
+   79  cp -r ~cta200/Research/gauss2d .
+   80  dir
+   81  cd gauss2d/
+   82  dir
+   83  pwd
+   84  m gauss2d.cc
+   85  more gauss2d.cc
+   86  more Makefile
+   87  make
+   88  dir
+   89  ls
+   90  ./gauss2d
+   91  pwd
+   92  ls -la
+   93  make
+   94  pwd
+   95  ./gauss2d > data.txt
+   96  dir
+   97  ls -la
+   98  pwd
+   99  git config
+  100  git config --list
+  101  git config --global user.name "bangari"
+  102  git config --global user.email bangari@cita.utoronto.ca
+  103  git config --list
+  104  git config --global user.email ishika.bangari@mail.utoronto.ca
+  105  git config --list
+  106  dir
+  107  ssh cosmo2
+  108  whoami
+  109  cd ~
+  110  pwd
+  111  git clone https://github.com/CITA/CTA200H.git
+  112  pwd
+  113  ls
+  114  cd CTA200H
+  115  dir
+  116  python
+  117  jupyter notebook --no-browswer
+  118  module load gcc/4.9.2 python/2.7.10
+  119  jupyter notebook --no-browswer
+  120  jupyter notebook --no-browser
+  121  cd CTA200H
+  122  cd lecture2
+  123  python
+  124  ls
+  125  module load gcc/4.9.2 python/2.7.10
+  126  jupyter notebook &
+  127  firefox
+  128  git config
+  129  git config --global user.name "bangari"
+  130  git config --global user.email ishika.bangari@mail.utoronto.ca
+  131  ls -la~
+  132  ls -la ~
+  133  ssh-keygen
+  134  cd ~/.ssh
+  135  ls
+  136  ls -la
+  137  .ssh more id_rsa.pub
+  138   more id_rsa.pub
+  139  pwd
+  140  git remote rm origin
+  141  git remote add origin git@github.com:bangari-19/CTA200_NEW.git
+  142  ls -la
+  143  git status
+  144  pwd
+  145  cd
+  146  pwd
+  147  mkdir assign1
+  148  cd assign1
+  149  echo "# CTA200_NEW" >> README.md
+  150  git init
+  151  git add README.md
+  152  git commit -m "first commit"
+  153  git branch -M main
+  154  git remote add origin git@github.com:bangari-19/CTA200_NEW.git
+  155  git push -u origin main
+  156  ls -la
+  157  git remote -v
+  158  git branch
+  159  git push -u origin main
+  160  pwd
+  161  ls -la
+  162  cd CTA200_NEW
+  163  cd assign1
+  164  pwd
+  165  ls -la
+  166  mkdir assignment_1
+  167  pwd
+  168  ls
+  169  ls -la
+  170  cp main.c assign1
+  171  pwd
+  172  cp ~/CTA200H/assignment1_2021/main.c assign1
+  173  ls assign1
+  174  ls assign1/
+  175  pwd
+  176  ls -la
+  177  pwd
+  178  rm -r assign1
+  179  pwd
+  180  ls -la
+  181  cp ~/CTA200H/assignment1_2021/main.c ~/assign1/assignment_1
+  182  pwd
+  183  ls -la
+  184  cd assignment_1
+  185  ls 
+  186  pwd
+  187  cd assign1
+  188  pwd
+  189  ls
+  190  cd assignment_1
+  191  ls
+  192  cp ~/CTA200H/assignment1_2021/{average.c, average.h} ~/assign1/assignment_1/
+  193  cp ~/CTA200H/assignment1_2021/{average.c,average.h}/ ~/assign1/assignment_1/
+  194  pwd
+  195  cd ~
+  196  pwd
+  197  cp ~/CTA200H/assignment1_2021/{average.c/ ~/assign1/assignment_1/
+  198  cp ~/CTA200H/assignment1_2021/main.c ~/assign1/assignment_1
+  199  cp ~/CTA200H/assignment1_2021/average.c ~/assign1/assignment_1
+  200  cp ~/CTA200H/assignment1_2021/average.h ~/assign1/assignment_1
+  201  pwd
+  202  cd assign1
+  203  ls
+  204  cd assignment_1
+  205  ls
+  206  cd assignment_1
+  207  cd assign1
+  208  cd ~
+  209  pwd
+  210  cd assign1
+  211  pwd
+  212  cd assignemt_1
+  213  cd assignment_1
+  214  ls
+  215  .
+  216  cd .
+  217  pwd
+  218  cd ..
+  219  pwd
+  220  ls
+  221  cd assign1
+  222  ls
+  223  cd assignment_1
+  224  ls
+  225  pwd
+  226  cd trash
+  227  cd ~
+  228  pwd
+  229  module load gcc/4.9.2 python/2.7.10
+  230  jupyter notebook &
+  231  firefox
+  232  pwd
+  233  module load
+  234  module avail
+  235  pwd
+  236  ls
+  237  cd assign1
+  238  ls
+  239  cd assignment_1
+  240  ls
+  241  cd assign1
+  242  cd ~
+  243  cd assign1
+  244  ls -la
+  245  vim main.c
+  246  vim Makefile
+  247  make
+  248  ./main
+  249  vim Makefile
+  250  make
+  251  ls
+  252  vim Makefile
+  253  make
+  254  cat Makefile
+  255  ls
+  256  make
+  257  cd ~
+  258  ls
+  259  cd assign1
+  260  ls
+  261  cp ~/CTA200H/assignment1_2021/average.c ~/assign1
+  262  cp ~/CTA200H/assignment1_2021/average.h ~/assign1
+  263  vim Makefile
+  264  make
+  265  ls
+  266  cat Makefile
+  267  cat main.c
+  268  cp ~/CTA200H/assignment1_2021/main.c ~/assign1
+  269  cat main
+  270  cat main.c
+  271  make
+  272  ls -la
+  273  ./main
+  274  make
+  275  cd assign1
+  276  ls
+  277  make
+  278  ./main
+  279  git status
+  280  git add .
+  281  git status
+  282  git commit -m "commit Makefile and .c and .h files"
+  283  git push
+  284  git status
+  285  history
+  286  cd ~
+  287  pwd
+  288  cd assign1
+  289  pwd
+  290  history > history.txt
